@@ -1,0 +1,60 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	font-family: verdana;
+}
+body.b1, .b2  {
+	background-color: silver;
+}
+.b1 #container {
+	width: 700px; 
+	background: linear-gradient(90deg, rgb(215,95,0), rgb(251,130,34), rgb(8215,95,0));
+	border-radius: 5px; 
+	margin: 20px auto;
+	padding: 20px; 
+}
+.b1 h1 {
+	text-align: center;
+}
+form {
+	margin-top: 10px; 
+}
+form p, input {
+	display: inline-block;
+}
+form p {
+	width: 170px;
+	vertical-align: top; 
+	text-align: right;
+	color: white;
+}
+p.error {
+	color: yellow;
+	width: 500px;
+	margin-left: 110px;  
+}
+input {
+	padding: 5px; 
+	margin: 2px; 
+	margin-left: 10px; 
+}
+.button {
+	width: 80px; 
+	margin-top: 5px; 
+	margin-left: 180px; 
+}
+
+
+/* ------------------------- SUCCESS PAGE CSS ----------------- */
+body.b2 #container {
+	background-color: rgb(240,240,240);
+	width: 85%; 
+	margin: 20px auto; 
+	border: 1px solid black; 
+	min-height: 680px; 
+	padding: 20px; 
+} 
+.b2 #container span {
+	color: green;
+	font-weight: bold;
+}
